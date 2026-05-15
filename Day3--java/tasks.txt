@@ -1,0 +1,3 @@
+--> reverse a string with special chars and not changing their positions -- done
+--> read 2 nums and return numbers with no duplicate digits without using sets -- done
+--> hell03hi15bye7 --done

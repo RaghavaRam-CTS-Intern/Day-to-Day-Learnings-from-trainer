@@ -1,0 +1,7 @@
+--> can we make class name and file name diff : Yes (If there is no public class)
+
+--> Can i make more than one public class in a file : NO (If there is a public class in our file it should be named like that if there are multiple public classes we cannot name our file with multiple names it is not possible)(either we can have one pubic or no pubic)
+
+--> Can we Overload(Same method name diff arguments) main method : Yes 
+
+--> Can we Override the main method : No (we cannot override static methods)

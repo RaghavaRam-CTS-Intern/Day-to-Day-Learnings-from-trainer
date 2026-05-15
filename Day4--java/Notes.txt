@@ -1,0 +1,31 @@
+--> we have 3 types of variables
+1.local
+2.instance
+3.Static
+
+
+1.Local variable
+--> if any variable is there inside the method inside the block or inside constructor it is "local variable"
+    we use it when we are not going to use through out the program
+--> for local variable JVM don't provide default values
+--> local variables will get memory allocated in the stack
+--> when the local variable get memory allocated : when you calling that block or constructor or method
+--> when the local variable get memory deallocated : when you that block or constructor or method completed
+
+
+2.Instance variable
+--> if the data is different from one obj to another obj those kind of variables is declared as "instance variable"
+--> how do I declare instance variable and where : inside the class outside of any method or constructor or block
+--> instance variable will get memory allocated in the heap
+--> JVM will provide the default value for instance variable
+--> when the instance variable get memory allocated : at the time of obj creation
+--> when the instance variable get memory deallocated : when the obj work has done it will deallocate with help of garbage collector
+
+
+3.Static variable
+--> when the data is not different from obj to obj such kind of variables we keep them as "static variable"
+--> how do I declare static variable and where : inside the class outside of any method or constructor or block along with keyword static
+--> for static variables JVM provide default values
+--> get memory allocated in the method area
+--> when the static variable get memory allocated : when the class is loading
+--> when the static variable get memory deallocated : when the class is unloading

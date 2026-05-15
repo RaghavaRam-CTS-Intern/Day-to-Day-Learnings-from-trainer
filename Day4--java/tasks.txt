@@ -1,0 +1,5 @@
+2d array searching no display col as alphabet -- done
+
+reverse array and a string without builtin methods -- done
+
+occurrence of each ele in an array --> done
