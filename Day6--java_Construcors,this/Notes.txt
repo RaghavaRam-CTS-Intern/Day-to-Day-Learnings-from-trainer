@@ -1,0 +1,40 @@
+--> in our class if we don't have any constructor compiler will create no argument constructor or default constructor automatically
+--> if we create constructor with argument in our class also we should create no argument constructor it is coding standard
+
+Constructor vs Method
+
+Method						constructor
+-->you can give any name to method		-->class name and constructor name should be same
+-->method contain return type			-->constructor not contain return type
+-->can write any code inside the method		-->we initialise the value
+-->we can overload the methods			-->we can overload the constructor
+-->we can override the methods			-->we can override the constructor
+-->you can inherit the method			-->you cannot inherit the constructor
+
+
+About This key word
+-->this keyword refers the current object
+
+class Person(){
+int name;
+public person(int name){
+//p1.name=name;
+this.name = name;
+
+}
+
+}
+Person p1 = new Person()
+
+-->if your local variable and instance variables different you cannot use this keyword
+-->
+
+
+
+toString() method
+--> when you are trying to print p1 Sys.out.print(p1) obj internally it will call toStrinng() method
+-->it will check inside the person class is toString() method available or not, if available it will print, if not available in person class immediately checks 
+the parent class in our example we didn't define any parent class if you are not explicitly defining parent then object class is the parent then it eill print what is inside the toString() in object class
+-->if you want your own data to print you need to override the toStringa() in child class
+
+note: when it is a display() method we need to call explicitly to print the data when it comes to toString() it will automatically invoke

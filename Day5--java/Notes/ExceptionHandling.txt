@@ -1,0 +1,33 @@
+what is an exception 
+exception is an abnormal condition which occurs during the execution of a program
+it will affect the normal flow of the prog. if we don't handle it properly then prog terminate abnormally. to handle exception we can use try() catch() block
+throwable is parent of all classes it contain two classes error and exception
+ 
+Exception vs Error 
+Exception can be recovered using try catch block by programmer
+Error is irrecoverable by the programmer
+Can we write only try() block without catch() and finally()   No
+
+Difference between throw and throws 
+Throw
+1.	Throw is used to explicitly throw an exception
+2.	Throw cannot propagated
+3.	Throw is used with in the method
+4.	Throw cannot throw multiple exception
+Throws
+1.	Throws is used to declare a exception
+2.	Throw can propagated
+3.	Throws is used in method signature
+4.	Throws can throw multiple exceptions
+Exception is divided into 2 parts
+1.	Checked exception
+2.	unchecked exception
+
+Checked exception :
+These exceptions are checked by the compiler during the compile time. 
+
+Unchecked exception :
+These exceptions are not checked by the compiler.
+ 
+
+

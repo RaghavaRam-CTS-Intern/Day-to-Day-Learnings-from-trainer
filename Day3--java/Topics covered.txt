@@ -1,3 +1,0 @@
-data types
-type casting
-strings

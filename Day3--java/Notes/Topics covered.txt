@@ -1,0 +1,13 @@
+data types
+type casting
+strings
+(toUpper
+toLower
+substring
+length
+split
+join
+contains
+concat
+startswith
+endswith)

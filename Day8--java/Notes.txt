@@ -1,0 +1,26 @@
+ 
+-->when you are creating the class we are going to create 5 methods
+-->in the above case if we know that the all the child classes using the same functionalities then go for "Concrete class"
+-->in the above scenario we don't know the implementation of the all 5 methods then we should use "interface"
+-->in the above scenario i know the functionalities partially (know 3 methods don't know 2) then go for "Abstract class"
+
+
+Difference between interface and Abstract class
+-->inside the interface all the variables are final by default
+-->to achieve abstraction we use interface and abstract class
+-->when we choose interface we can achieve 100% of abstraction
+-->when we choose Abstract class we can achieve 90% of abstraction
+-->we cannot create obj for interface
+-->we cannot create obj for Abstract
+-->we cannot create constructor for interface
+-->we can create constructor for abstract class
+-->interface can only have abstract methods only
+-->in abstract class we can have abstract and non abstract methods also
+-->inside the interface what ever the methods we are having they public abstract by default
+-->inside the abstract class we need to specify abstract to abstract methods
+
+
+Types of interfaces
+Functional Interface (introduced in V8):-->if an interface contain only one abstract method, in this we can have any no of default and static methods but make sure only one abstract method
+Normal Interface : any no of abstract and non abstract methods
+Marker Interface : no method in the interface (e.g.: Remote, Serializable, Cloneable)

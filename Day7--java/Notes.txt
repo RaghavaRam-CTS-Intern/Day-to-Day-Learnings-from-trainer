@@ -1,0 +1,24 @@
+Overriding equals of method:
+-->in our case we have 2 student obj which contains the same info
+-->I want to print that if both objs elements are same from the different objs
+-->If you are using == operator here it checks both objs are coming from same instance or not in that case result is false
+-->So I have chosen equalsOf() method which is available inside Object class, Object class equalsOf() meth is also checking
+   Objs are from same instance or not
+-->in that case we need to change the method, so we override that method
+
+
+instanceof key word:
+-->check whether an object is an instance of a specific class
+
+
+Overriding hashcode() method:
+--.ONLY parent class toString() meth will call hashcode() meth
+-->if we overrided hashcode meth in our child class, then parent class toString() meth going to call child class hashcode() meth
+
+
+
+-->when we are creating the class if we don't have any constructor, the compiler will going to create no argument constructor
+-->that contractor always class its parent class withno argument constructor
+--> in my case ethe parent contains no argument constructor but we have augmented constructor that id the error
+-->create a no argument constructor explicitly
+-->
